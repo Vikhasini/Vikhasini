@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>survey form</title>
+    <link rel="stylesheet" href="surr.css">
+    </head>
+    <body>
+      <h1>survey form </h1>
+      <p>to know more about college canteen</p>
+      <form id="survey form">
+        <fieldset>
+            <label>name<input type="text" placeholder="enter your name" required></label>
+            <label>email<input type="email" placeholder="enter your email" required></label>
+            <label>reg number<input type="number" placeholder="enter your reg number" required></label>
+
+
+        </fieldset>
+        <fieldset>
+            <label for="choice">variety of food
+              <select id="choice" name="choice">
+                <option value=" ">select one</option>
+                <option value="1">wide variety</option>
+                <option value="2">moderate</option>
+                <option value="3">less</option>
+                <option value="4">very less</option>
+                
+              </select>            
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>      part of menu which you like the most</legend>
+            <input id="meals" type="checkbox" value="meals" name="menu"><P> for="meals" > meals</p>
+            <input id="desserts" type="checkbox" value="desserts" name="menu"><p for="desserts" >desserts </p>
+            <input id="drinks" type="checkbox" value="drinks" name="menu"><label for="drinks" >drinks </label>
+            <input id="salads" type="checkbox" value="salads" name="menu"><label for="salads" > salads</label>
+        </fieldset>
+
+              <label for="more_info">write a overview about college canteen
+                <textarea id="more_info" name="more_info" rows="5" cols=140" placeholder="it will be great if we add this facility...."></textarea>
+              </label>
+
+        </fieldset>
+      </form>

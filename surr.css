@@ -1,0 +1,12 @@
+label{
+    display: block;
+}
+body{
+    background-color: darkcyan;
+    color: lavenderblush;
+    font-style: oblique;
+    font-size: 20px;
+}
+h1,p {
+    text-align: center;
+}
